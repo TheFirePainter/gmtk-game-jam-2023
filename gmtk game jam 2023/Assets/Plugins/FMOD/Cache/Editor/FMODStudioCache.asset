@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6816867577200026985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/main menu music.bank
+  m_EditorClassIdentifier: 
+  Path: ../music/fmod project/gmtk game jam fmod file/Build/Desktop/main menu music.bank
+  Name: main menu music
+  StudioPath: bank:/main menu music
+  lastModified: 638244291364670091
+  FileSizes:
+  - Name: Desktop
+    Value: 640800
+  Exists: 1
+--- !u!114 &-2944873915919519202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../music/fmod project/gmtk game jam fmod file/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638244291355391110
+  FileSizes:
+  - Name: Desktop
+    Value: 820
+  Exists: 1
+--- !u!114 &-2331895544767002179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/main menu music
+  m_EditorClassIdentifier: 
+  Path: event:/main menu music
+  Guid:
+    Data1: -966713758
+    Data2: 1208260104
+    Data3: 1283081653
+    Data4: -266949227
+  Banks:
+  - {fileID: -6816867577200026985}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 48000
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -2944873915919519202}
+  - {fileID: -6816867577200026985}
+  - {fileID: 1358682791244771164}
+  EditorEvents:
+  - {fileID: -2331895544767002179}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 1358682791244771164}
+  StringsBanks:
+  - {fileID: -2944873915919519202}
+  cacheTime: 638244291364670091
+  cacheVersion: 131605
+--- !u!114 &1358682791244771164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../music/fmod project/gmtk game jam fmod file/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638244291355361102
+  FileSizes:
+  - Name: Desktop
+    Value: 1036
+  Exists: 1
