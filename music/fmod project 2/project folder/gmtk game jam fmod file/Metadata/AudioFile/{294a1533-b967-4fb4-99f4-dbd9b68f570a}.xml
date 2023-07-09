@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{294a1533-b967-4fb4-99f4-dbd9b68f570a}">
+		<property name="assetPath">
+			<value>level 1/bass.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>11.428571428571429</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9209d262-cd25-4e88-98a6-fb7577c5ccdf}</destination>
+		</relationship>
+	</object>
+</objects>
